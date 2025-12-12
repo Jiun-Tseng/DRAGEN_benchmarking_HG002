@@ -1,0 +1,38 @@
+# macOS system files
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Thumbnails
+._*
+
+# Icon files
+Icon?
+ehthumbs.db
+Thumbs.db
+
+# VS Code settings
+.vscode/
+
+# R temporary files
+.Rhistory
+.RData
+.Ruserdata
+.Rproj.user/
+
+# R Markdown cache and figures
+*_cache/
+*_files/
+
+# Output folders (optional)
+output/
+plots/
+
+# Temporary or log files
+*.log
+*.tmp
+*.bak
+
+# Compressed files (optional)
+*.zip
+*.tar.gz
