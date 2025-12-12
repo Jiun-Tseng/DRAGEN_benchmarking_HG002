@@ -38,7 +38,27 @@ This repository contains R scripts for visualizing benchmarking metrics for geno
 
 ## Installation
 
-Have **R** installed. Then, install the required R packages:
+Have **R** installed, then install the following packages:
 
 ```R
 install.packages(c("dplyr", "tidyr", "ggplot2", "patchwork", "stringr", "readr"))
+
+
+1. SNP & INDEL Benchmarking Script
+
+
+# Set folder containing TSV files
+folder_path <- "/path/to/your/tsv/files"
+
+# Set output directory for plots
+output_dir <- "/path/to/save/plots"
+
+# Run the script
+source("HG002_SNP_INDEL_benchmarking.R")
+
+2. SV & CNV Benchmarking Script
+# Set path to TSV file
+file_path <- "/path/to/SVprecisionrecall.tsv"
+
+# Run the script
+source("SV_CNV_benchmarking.R")
